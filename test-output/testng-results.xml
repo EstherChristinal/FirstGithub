@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="15" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64" started-at="2020-09-03T17:26:52Z" finished-at="2020-09-03T17:26:52Z">
+    <groups>
+      <group name="classgroup">
+        <method signature="ClassA.sysout()[pri:0, instance:org.tesng.ClassA@458ad742]" name="sysout" class="org.tesng.ClassA"/>
+        <method signature="ClassB.sysout()[pri:0, instance:org.tesng.ClassB@5afa04c]" name="sysout" class="org.tesng.ClassB"/>
+        <method signature="ClassC.sysout()[pri:0, instance:org.tesng.ClassC@6ea12c19]" name="sysout" class="org.tesng.ClassC"/>
+      </group> <!-- classgroup -->
+    </groups>
+    <test name="Test" duration-ms="64" started-at="2020-09-03T17:26:52Z" finished-at="2020-09-03T17:26:52Z">
+      <class name="org.tesng.ClassA">
+        <test-method status="PASS" signature="sysout()[pri:0, instance:org.tesng.ClassA@458ad742]" name="sysout" duration-ms="25" started-at="2020-09-03T17:26:52Z" finished-at="2020-09-03T17:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysout -->
+      </class> <!-- org.tesng.ClassA -->
+      <class name="org.tesng.ClassB">
+        <test-method status="PASS" signature="sysout()[pri:0, instance:org.tesng.ClassB@5afa04c]" name="sysout" duration-ms="5" started-at="2020-09-03T17:26:52Z" finished-at="2020-09-03T17:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysout -->
+      </class> <!-- org.tesng.ClassB -->
+      <class name="org.tesng.ClassC">
+        <test-method status="PASS" signature="sysout()[pri:0, instance:org.tesng.ClassC@6ea12c19]" name="sysout" duration-ms="1" started-at="2020-09-03T17:26:52Z" finished-at="2020-09-03T17:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysout -->
+      </class> <!-- org.tesng.ClassC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
