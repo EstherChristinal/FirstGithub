@@ -27,4 +27,8 @@ public class ClassA {
 	private void print4() {
 		System.out.println(" group2 ");
 	}
+	@Test(groups ="group2")
+	private void updated() {
+System.out.println("updated ");
+	}
 }
